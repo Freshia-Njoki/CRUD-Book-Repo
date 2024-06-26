@@ -1,4 +1,4 @@
-import React from 'react';
+import './index.css';
 import { BookList } from './components/BookList';
 
 const App: React.FC = () => {

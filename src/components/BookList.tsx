@@ -104,7 +104,7 @@ export const BookList: React.FC = () => {
               </div>
             ) : (
               <div>
-                <button onClick={() => handleEditClick(book)} className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-3 rounded mr-2">Edit</button>
+                <button onClick={() => handleEditClick(book)} className="bg-green-500 hover:bg-yellow-700 text-white font-bold py-1 px-3 rounded mr-2">Edit</button>
                 <button onClick={() => removeBook(book.id)} className="bg-red-500 hover:bg-red-600 text-white font-bold py-1 px-3 rounded">Delete</button>
               </div>
             )}
